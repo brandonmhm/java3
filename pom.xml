@@ -34,7 +34,13 @@
    <artifactId>mysql-connector-java</artifactId>
    <version>5.1.36</version>
     </dependency>
-    
+    <!-- Esta es una dependencia para transformar a JASON datos -->
+    <dependency>
+   <groupId>com.fasterxml.jackson.core</groupId>
+   <artifactId>jackson-databind</artifactId>
+   <version>2.4.4</version>
+   <type>jar</type>
+    </dependency>
   </dependencies>
 
   <build>
